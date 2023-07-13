@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.envoltura {
+  height: 100vh;
+  background: #000;
+  /*centrar retrato*/
+  display: grid;
+  place-items: center;
+}
+
+
+.retrato {
+  font-size: 10px;
+  line-height: 10px;
+  background: url("retrato.png")
+       fixed center no-repeat;
+  background-size: contain;
+}
+
+/* retrato */
+.retrato {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.042);
+}
